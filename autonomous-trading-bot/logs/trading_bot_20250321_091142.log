@@ -1,0 +1,4 @@
+2025-03-21 09:11:42,319 - INFO - Initializing paper trading exchange
+2025-03-21 09:12:26,998 - INFO - Paper trading exchange connected
+2025-03-21 09:12:26,998 - INFO - Trading bot started
+2025-03-21 09:12:26,998 - INFO - Entry order placed: OrderResponse(order_id='paper_order_1', symbol='BTC-USDT', side='buy', quantity=0.01, price=53871.10278005973, status='filled', timestamp=datetime.datetime(2025, 3, 21, 9, 12, 26, 998772))
