@@ -1,0 +1,27 @@
+{
+  "trading_mode": "paper",
+  "exchange": {
+    "name": "delta",
+    "apiKey": "",
+    "secret": "",
+    "testnet": true,
+    "base_url": "https://testnet-api.delta.exchange"
+  },
+  "trading_pair": "BTC-USDT",
+  "risk_management": {
+    "stop_loss": {
+      "type": "trailing",
+      "activation_percent": 1.0,
+      "trail_percent": 0.5
+    },
+    "position_size": {
+      "max_trade_size": 0.01,
+      "max_leverage": 10
+    }
+  },
+  "paper_trading": {
+    "initial_balance": 10000,
+    "simulate_slippage": true,
+    "max_slippage_percent": 0.1
+  }
+}
