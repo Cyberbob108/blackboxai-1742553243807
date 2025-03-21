@@ -1,0 +1,1 @@
+2025-03-21 09:00:57,755 - ERROR - Application error: Can't instantiate abstract class PaperTradingExchange with abstract methods cancel_order, close_position, get_balance, get_market_price, update_position
